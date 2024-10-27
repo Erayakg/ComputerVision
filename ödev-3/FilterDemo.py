@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Görüntüyü yükle
-image = cv2.imread('C:/Users/erayb/PycharmProjects/pythonProject2/ödev-3/girdiresmi.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('Untitled.png', cv2.IMREAD_GRAYSCALE)
 
 # Görüntü başarılı şekilde yüklenmezse hata mesajı ver
 if image is None:
@@ -24,4 +24,3 @@ else:
     cv2.imshow('Magnitüd Resim', magnitude)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-    print("demo")
