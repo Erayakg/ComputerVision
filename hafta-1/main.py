@@ -4,12 +4,12 @@ from ultralytics import YOLO
 model = YOLO("yolo11n.pt")
 
 # Define path to the image file
-source = "C:/Users/erayb/PycharmProjects/pythonProject2/1200px-LT_471_(LTZ_1471)_Arriva_London_New_Routemaster_(19522859218).jpg"
+source = "C:/Users/erayb/PycharmProjects/pythonProject2/hafta-1/1200px-LT_471_(LTZ_1471)_Arriva_London_New_Routemaster_(19522859218).jpg"
 
 # Run inference on the source6+9cont
 results = model(source)  # list of Results objects
 
-results = model(["C:/Users/erayb/PycharmProjects/pythonProject2/1200px-LT_471_(LTZ_1471)_Arriva_London_New_Routemaster_(19522859218).jpg"])  # return a list of Results objects
+results = model(["C:/Users/erayb/PycharmProjects/pythonProject2/hafta-1/1200px-LT_471_(LTZ_1471)_Arriva_London_New_Routemaster_(19522859218).jpg"])  # return a list of Results objects
 
 
 for result in results:
