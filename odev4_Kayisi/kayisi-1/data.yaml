@@ -1,0 +1,14 @@
+names:
+- cekirdek
+- kayisi
+- yaprak
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: kayisi-zhgvm
+  url: https://universe.roboflow.com/computervision-yed9m/kayisi-zhgvm/dataset/1
+  version: 1
+  workspace: computervision-yed9m
+test: ../test/images
+train: ../train/images
+val: ../valid/images
